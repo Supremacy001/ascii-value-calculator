@@ -8,18 +8,19 @@ int main(int argc, char const *argv[])
     cout << "enter a character: "<< endl;
     ch = cin.get();
 
-    if (int(ch) >= 97 && int(ch) <= 122) {
-        cout << "the charcater '" << ch << "' is a small letter with ascii value: "<< int(ch) << endl;
+    if (ch >= 'a' && ch <= 'z') {
+        cout << "Small letter, ASCII: " << int(ch);
     }
-    else if (int(ch) >= 65 && int(ch) <= 90) {
-        cout << "the charcater " << ch << " is a capital letter with ascii value: "<< int(ch) << endl;
+    else if (ch >= 'A' && ch <= 'Z') {
+        cout << "Capital letter, ASCII: " << int(ch);
     }
-    else if (int(ch) >=48 && int(ch) <=57 ) {
-        cout << "the charcater '"<< ch <<"' is a number with ascii value: "<< int(ch) << endl;
+    else if (ch >= '0' && ch <= '9') {
+        cout << "Digit, ASCII: " << int(ch);
     }
     else {
-        cout << "other character" << endl;
-    }
+        cout << "Symbol, ASCII: " << int(ch);
+}
+
 
     
 
