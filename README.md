@@ -11,4 +11,4 @@ C / C++
 
 ## Sample Output
 Input: A  
-Output: the charcater A is a capital letter with ascii value: 65
+Output: Capital letter, ASCII: 65
